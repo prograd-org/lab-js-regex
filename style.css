@@ -1,0 +1,29 @@
+   
+div {  
+    box-sizing: border-box; 
+    width: 100%; 
+    border: 100px solid black; 
+} 
+   
+form {                                         
+    margin: 0 auto; 
+    width: 600px;
+    text-align: center;
+    border: 1px Solid black;
+    background-color: aliceblue;
+}
+
+form>p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+input{
+    width: 300px;
+    margin-left: 2%;
+    float: inline-end;
+}
+.alert{
+    color: red;
+}

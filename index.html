@@ -1,0 +1,34 @@
+<html> 
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body> 
+<h2 style="text-align: center"> FORM VALIDATION</h2>           
+<form name="RegForm" action="/" onsubmit="return formValidate()" method="post">  
+    <p>Name : <input type="text" name="Name"></p>
+     <label class="alert" id="name"></label><br>  
+
+    <p> Address : <input type="text" name="Address">  </p>
+     <label class="alert" id="address"></label><br> 
+
+    <p>E-mail : <input type="text"  name="EMail"></p>
+     <label class="alert" id="email"></label><br> 
+
+    <p>Password : <input type="password" name="Password"> </p>
+    <label class="alert" id="pwd"></label><br> <br> 
+
+    <p>Confirm Password : <input type="password" name="cPassword"> </p>
+    <label class="alert" id="cpwd"></label><br> <br>
+
+    <p>Phone : <input type="number" name="phone"> </p>
+    <label class="alert" id="phone"></label><br> <br>   
+
+    <p><input type="submit" value="Check" name="Submit"></p><br>   
+
+</form> 
+</body> 
+</html>
