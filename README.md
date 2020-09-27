@@ -35,8 +35,8 @@ Validate the form as per the rules given below.
 - username should contain a minimum of 8 characters and a maximum of 15 characters.
 - Address should not be empty.
 - Email should contain @, .(dot) or underscore.
-- password should not be empty.
 ![Image description](https://i1.faceprep.in/ProGrad/fv-2.JPG)
+- password should not be empty.
 - password must contain 1 uppercase letter, 1 lowercase letter, atleast 1 number.
 - password must contain the following special characters ```!@#$%^&*()```.
 ![Image description](https://i1.faceprep.in/ProGrad/fv-3.JPG)
