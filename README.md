@@ -25,11 +25,12 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 ### Progression 1: CREATE A FORM
 Create a form as per the output shown here.
 
-![Image description]()
+![Image description](https://i1.faceprep.in/ProGrad/fv-0.jpg)
 
 ### Progression 2: TIME TO VALIDATE
 Validate the form as per the rules given below.
 **Validation rules**
+![Image description](https://i1.faceprep.in/ProGrad/fv-1.jpg)
 - username should not be empty.
 - username should contain a minimum of 8 characters and a maximum of 15 characters.
 - password should not be empty.
