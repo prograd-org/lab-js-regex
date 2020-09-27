@@ -33,18 +33,17 @@ Validate the form as per the rules given below.
 ![Image description](https://i1.faceprep.in/ProGrad/fv-1.JPG)
 - username should not be empty.
 - username should contain a minimum of 8 characters and a maximum of 15 characters.
+- Address should not be empty.
+- Email should contain @, .(dot) or underscore.
 - password should not be empty.
+![Image description](https://i1.faceprep.in/ProGrad/fv-2.JPG)
 - password must contain 1 uppercase letter, 1 lowercase letter, atleast 1 number.
 - password must contain the following special characters ```!@#$%^&*()```.
-- Email should contain @, .(dot) or underscore.
+![Image description](https://i1.faceprep.in/ProGrad/fv-3.JPG)
+![Image description](https://i1.faceprep.in/ProGrad/fv-4.JPG)
 - Phone number should be numerical in nature.
 - Should not contain any special characters.
 - Should be a ten digit number.
+![Image description](https://i1.faceprep.in/ProGrad/fv-5.JPG)
 
-
-![Image description]()
-
-
-
-![Image description]()
 Happy Coding ProGrads❤️
