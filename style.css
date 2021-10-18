@@ -4,26 +4,40 @@ div {
     width: 100%; 
     border: 100px solid black; 
 } 
-   
-form {                                         
-    margin: 0 auto; 
-    width: 600px;
-    text-align: center;
-    border: 1px Solid black;
-    background-color: aliceblue;
+body{
+    background-color: rgb(175, 165, 165);
 }
-
-form>p{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
+p{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
 }
 input{
-    width: 300px;
+    width: 350px;
     margin-left: 2%;
     float: inline-end;
+    outline:none;
 }
 .alert{
-    color: red;
+  
+    color: orangered;
+    font-weight: 900;
+}
+#subbtn{
+    width: 60px;
+    background-color: orangered;
+    border: 1px solid black;
+    color: white;
+    padding: 5px;
+    cursor:  pointer;
+}
+
+table{
+    width: 100%;
+    border-spacing: 0 25px;
+}
+td{
+    padding: 10px;
+    text-align: center;
 }
