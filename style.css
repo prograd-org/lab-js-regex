@@ -7,8 +7,10 @@ div {
    
 form {                                         
     margin: 0 auto; 
-    width: 600px;
+    padding-top:2%;
+    width: 1200px;
     text-align: center;
+    padding-top: 0%;
     border: 1px Solid black;
     background-color: aliceblue;
 }
@@ -16,14 +18,58 @@ form {
 form>p{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 120px;
 
 }
+
 input{
-    width: 300px;
-    margin-left: 2%;
+    width: 350px;
+    /* margin-left: 2%; */
     float: inline-end;
+}
+.name{
+    margin-left: 20%;
+}
+.address{
+    margin-left: 18.75%;
+}
+.mail{
+    margin-left: 19.5%;
+}
+.password{
+    margin-left: 18%;
+}
+.cpassword{
+    margin-left: 10.75%;
+}
+.phone{
+    margin-left: 20%;
+}
+#result{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 23%;
+}
+.btn{
+    margin-left: 33%;
+    height: 35px;
+    width: 175px;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    background-color: orangered;
 }
 .alert{
     color: red;
+}
+table{
+    width: 100%;
+    border-spacing: 0 25px;
+}
+td{
+    padding: 10px;
+    text-align: center;
 }
