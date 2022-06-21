@@ -1,5 +1,4 @@
 /* Fill your code*/
-/* Fill your code*/
 function formValidate()
 {
     var name = document.forms["RegForm"]["Name"];
