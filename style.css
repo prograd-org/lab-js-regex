@@ -1,4 +1,4 @@
-   
+
 div {  
     box-sizing: border-box; 
     width: 100%; 
@@ -17,13 +17,25 @@ form>p{
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    
 }
 input{
-    width: 300px;
+    width:auto;
+    height:30px;
     margin-left: 2%;
     float: inline-end;
+    border-radius:4px;
+    border:1px solid black;
+   
 }
 .alert{
     color: red;
+}
+#submit{
+    background-color: rgb(190, 149, 72);
+    width:150px;
+    height:30px;
+    border:2px solid black;
+    border-radius:10px;
+    font-weight: bolder;
 }
